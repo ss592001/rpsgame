@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RPSStyle.css">
+</head>
+<body id="main">
+    <h1 style="text-align:center;background-color: cyan;" class="top"><b>ROCK , PAPER  AND  SCISSORS  GAME</b></h1>
+        <div class="set">
+
+
+            <div class="tbtn">
+                <button id="play" class="btn">PLAY</button>&nbsp;&nbsp;&nbsp;
+       
+                   <button id="player-turn" class="btn2">PLAYER</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                   <button id="final-Result" class="btn3" >FINAL RESULT</button>
+   
+            </div>
+            <h3 style="text-align:center;" class="res">Wins/turns left :&nbsp;<span id="wins">0</span>
+               <span>/</span>
+               <span id="turns">0</span>
+           </h3>
+            <div class="txt">
+               <h3 class="thead" >
+                   PLAYER CHOOSE FROM 
+   
+               </h3> 
+                <div class="mainbtn">
+                    <input type="hidden" value="rock" id="rockip" >
+                   <button id="rock" value="ROCK" >ROCK</button>&nbsp;&nbsp;
+                   <input type="hidden" value="paper" id="paperip">
+                   <button id="paper" value="PAPER">PAPER</button>&nbsp;&nbsp;
+                   <input type="hidden" value="scissors" id="scissorsip" >
+                   <button id="scissors" value="SCISSORS">SCISSORS</button>
+   
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="diolog-box" ><span id="res">Press the play button to start the game.</span></div>
+            <br>
+            <div id="finalRes"></div>
+        </div>
+    <script src="join.js"></script>
+</body>
+</html>
